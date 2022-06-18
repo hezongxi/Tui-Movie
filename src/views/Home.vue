@@ -11,6 +11,7 @@
     <actor/>
     <movie-recommendation/>
     <tuiClip/>
+    <photo/>
 </div>
   
   
@@ -22,6 +23,7 @@ import recommandation from '@/views/recommendation/index.vue'
 import actor from '@/views/actor/index.vue'
 import movieRecommendation from '@/views/movieRecommendation/index.vue'
 import tuiClip from '@/views/tuiClip/index.vue'
+import photo from '@/views/photo/index.vue'
 undefined
 export default {
   data () {
@@ -29,7 +31,7 @@ export default {
     };
   },
 
-  components: { introduction, recommandation,actor,movieRecommendation,tuiClip },
+  components: { introduction, recommandation,actor,movieRecommendation,tuiClip,photo },
 
   computed: {},
 

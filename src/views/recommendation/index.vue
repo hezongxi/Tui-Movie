@@ -2,7 +2,7 @@
 <template>
   <div class="container">
     <div class="pannel">
-        <van-tabs v-model="active" animated>
+        <van-tabs v-model="active" animated color="black">
         <van-tab title='简介'>
             <div class="text">在东京京王线的明大前站，错过末班车的山音麦(菅田将晖饰)和八谷绢(有村架纯饰)偶然相识，在深夜咖啡馆聊起文学、电影和音乐，发现喜好惊人-致的他们瞬间坠入爱河，开始了五年恋爱..<div class="button">展开</div></div>
         </van-tab>
@@ -47,11 +47,12 @@ export default {
 }
 .button{
     font-size: 0.27rem;
-    color:#3242d9ec;
+    color:#86b6f9ec;
     display: inline-block;
 }
 .text{
     padding: 0.25rem;
     padding-top: 0.3rem;
+    line-height: 0.5rem;
 }
 </style>

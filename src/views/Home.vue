@@ -9,6 +9,7 @@
     <introduction/>
     <recommandation/>
     <actor/>
+    <movie-recommendation/>
 </div>
   
   
@@ -18,6 +19,7 @@
 import introduction from '@/views/introduction/index.vue'
 import recommandation from '@/views/recommendation/index.vue'
 import actor from '@/views/actor/index.vue'
+import movieRecommendation from '@/views/movieRecommendation/index.vue'
 undefined
 export default {
   data () {
@@ -25,7 +27,7 @@ export default {
     };
   },
 
-  components: { introduction, recommandation,actor },
+  components: { introduction, recommandation,actor,movieRecommendation },
 
   computed: {},
 

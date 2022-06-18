@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <div class="bar">
-    <div><br>&nbsp演职员</br></div><br>
+    <h1><br>&nbsp演职员</br></h1><br>
     <div class="container">
         <div><img src="@/assets/img/1.png" alt=""><p style="font-size:0.3rem;">111</p></div>
         <div><img src="@/assets/img/2.png" alt=""><p>111</p></div>
@@ -31,8 +31,7 @@ export default {
 </script>
 <style lang='less' scoped>
 .bar{
-    div:first-child{
-        font-weight: 500;
+    h1{
         font-size: 0.35rem;
         border-top:solid #eee 0.02rem;
         margin-left: 0.3rem;
@@ -40,6 +39,7 @@ export default {
     }
 }
 .container{
+    padding-left:0.35rem;
     overflow-x: scroll; -webkit-overflow-scrolling:touch;display: -webkit-box;white-space: nowrap;
     div{
         display: inline-block;

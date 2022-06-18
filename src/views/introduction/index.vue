@@ -1,7 +1,7 @@
 <!--  -->
 <template>
   <div class="container">
-    <div class="img"></div>
+    <div class="img"><img src="@/assets/img/title.png" alt=""></div>
     <div class="title">花束般的恋爱</div>
     <div class="class">124分钟/爱情/日本</div>
     <div><img src="@/assets/img/dislike.png" alt="">109&nbsp<img src="@/assets/img/like.png" alt="" style="margin-left:0.1rem;">104 <div>10人评分</div></div>
@@ -31,18 +31,22 @@ export default {
 .img{
     margin-left: 0.4rem;
     vertical-align: top;
-    width: 2.3rem;
+    width: 2.2rem;
     height: 2.5rem;
     background: #eee;
     float: left;
     margin-top:0.1rem ;
-    
+    border: solid rgba(238, 238, 238, 0.088) 0.03rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
 }
 .container{
   margin-top: 0.3rem;
   div:nth-child(4){
-    font-size:0.1rem;
-    margin-left:3.2rem;
+    font-size:0.3rem;
+    margin-left:3.24rem;
     margin-bottom: 0.15rem;
     div{
       display: inline-block;
@@ -55,7 +59,7 @@ export default {
     }
   }
   div:nth-child(5){
-    font-size:0.1rem;
+    font-size:0.3rem;
     margin-left: 3.27rem;
     div{
       display: inline-block;
@@ -64,7 +68,7 @@ export default {
     }
   }
   div:nth-child(6){
-    font-size:0.1rem;
+    font-size:0.3rem;
     margin-left: 3.3rem;
     margin-top: 0.15rem;
     img{
@@ -79,7 +83,7 @@ export default {
  font-weight:500;
 }
 .class{
-  font-size: 0.15rem;
+  font-size: 0.25rem;
   margin-left:3.25rem ;
   margin-top:0.15rem;
   margin-bottom:0.15rem;

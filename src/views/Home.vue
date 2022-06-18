@@ -6,7 +6,9 @@
         <div>电影详情</div>
     </div>
   </div>
-    <introduction />
+    <introduction/>
+    <recommandation/>
+    <actor/>
 </div>
   
   
@@ -14,13 +16,16 @@
 
 <script lang="ts">
 import introduction from '@/views/introduction/index.vue'
+import recommandation from '@/views/recommendation/index.vue'
+import actor from '@/views/actor/index.vue'
+undefined
 export default {
   data () {
     return {
     };
   },
 
-  components: {introduction},
+  components: { introduction, recommandation,actor },
 
   computed: {},
 
@@ -29,7 +34,7 @@ export default {
 
 
 </script>
-<style lang="less">
+<style lang="less" >
   .home{
     background-color: white;
     font-size: 0.371rem;
@@ -39,7 +44,6 @@ export default {
       div{
         margin: 0.13rem;
         margin-right: 0.37rem;
-
       }
     }
   }

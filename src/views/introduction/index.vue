@@ -31,8 +31,8 @@ export default {
 .img{
     margin-left: 0.4rem;
     vertical-align: top;
-    width: 2.5rem;
-    height: 2.65rem;
+    width: 2.3rem;
+    height: 2.5rem;
     background: #eee;
     float: left;
     margin-top:0.1rem ;

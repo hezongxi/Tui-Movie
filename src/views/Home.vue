@@ -10,6 +10,7 @@
     <recommandation/>
     <actor/>
     <movie-recommendation/>
+    <tuiClip/>
 </div>
   
   
@@ -20,6 +21,7 @@ import introduction from '@/views/introduction/index.vue'
 import recommandation from '@/views/recommendation/index.vue'
 import actor from '@/views/actor/index.vue'
 import movieRecommendation from '@/views/movieRecommendation/index.vue'
+import tuiClip from '@/views/tuiClip/index.vue'
 undefined
 export default {
   data () {
@@ -27,7 +29,7 @@ export default {
     };
   },
 
-  components: { introduction, recommandation,actor,movieRecommendation },
+  components: { introduction, recommandation,actor,movieRecommendation,tuiClip },
 
   computed: {},
 
@@ -43,6 +45,7 @@ export default {
     border-bottom:solid #eee 0.03rem ;
     div{
       text-align:center;
+      vertical-align:middle;
       div{
         margin: 0.13rem;
         margin-right: 0.37rem;
